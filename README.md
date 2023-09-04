@@ -10,11 +10,11 @@
     - Supplementary of Experiments
 
 ## Demo Script Running
-1. Running KAP framework over our KCMSA dataset
+1. Running ourKAP framework over our KCMSA dataset
     ```
     python A_KAP.py --iter 0
     ```
-2. Running KAP framwork over KTEA dataset
+2. Running our KAP framework over the KTEA dataset
     ```
     python A_KAP_twitter.py --iter 0
     ```
@@ -29,8 +29,8 @@ python exp_script.py
 2. Save the above five files in the "``Code/KLUE_BERT``" folder
 3. Download the '``cc.ko.300.bin``' from https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ko.300.bin.gz and unzip the file
 4. Save the above file in the "``Code/Fasttext``" folder
-5. (*For some baselines requiring the Hannanum tool*) Download the “KoNLPy” python package following https://konlpy.org/en/latest/#guide
-6. Create conda enviroment
+5. (*For some baselines requiring the Hannanum tool*) Download the “KoNLPy” python package following https://konlpy.org/en/latest/install/
+6. Create conda environment
     ```
     cd Codes
     conda env create -f KCMSA_env.yml

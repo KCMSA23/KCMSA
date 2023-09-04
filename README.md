@@ -10,7 +10,7 @@
     - Supplementary of Experiments
 
 ## Demo Script Running
-1. Running KAP framwork over our KCMSA dataset
+1. Running KAP framework over our KCMSA dataset
     ```
     python A_KAP.py --iter 0
     ```
@@ -24,7 +24,7 @@
 python exp_script.py
 ```
 
-## Preliminary steps
+## Preliminary Steps
 1. Download the '``config.json``', '``pytorch_model.bin``', '``special_tokens_map.json``', '``tokenizer_config.json``', '``tokenizer.json``', '``vocab.txt``' from https://huggingface.co/klue/bert-base/tree/main
 2. Save the above five files in the "``Code/KLUE_BERT``" folder
 3. Download the '``cc.ko.300.bin``' from https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ko.300.bin.gz and unzip the file
@@ -40,5 +40,5 @@ python exp_script.py
 ## Dataset Source
 * KTEA: https://goo.gl/Gu0GNw
 
-### Contact us
+### Contact Us
 yangxinyu@dbis.nankai.edu.cn

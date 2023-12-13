@@ -1,8 +1,8 @@
 # Knowledge-aware Prompt Learning Framework for Korean-Chinese Microblog Sentiment Analysis
 
-## **:triangular_flag_on_post: This work has been accepted in ICASSP2024 **
-## **:triangular_flag_on_post: 🤗 Please [cite KCMSA](https://github.com/KCMSA23/KCMSA#-citing-kcmsa) in your publications if it helps with your work. **
-## It really means a lot to our open-source research. Thank you!**
+
+## **:triangular_flag_on_post: This work has been accepted in ICASSP2024(IEEE International Conference on Acoustics, Speech and Signal Processing) [CCF-B]**
+## **:triangular_flag_on_post: 🤗 Please [cite KCMSA](https://github.com/KCMSA23/KCMSA#-citing-kcmsa) in your publications if it helps with your work. It really means a lot to our open-source research. Thank you!**
 
 
 ## File Structure

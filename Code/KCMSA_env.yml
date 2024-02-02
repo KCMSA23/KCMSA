@@ -1,4 +1,4 @@
-name: base
+name: KCMSA_env
 channels:
   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/

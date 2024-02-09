@@ -94,9 +94,9 @@ class BertClassifier(nn.Module):
     for param in self.bert.parameters():
         param.requires_grad = True
     self.tokenizer = AutoTokenizer.from_pretrained(bert_model)
-    self.wpostive = nn.Parameter(torch.FloatTensor(torch.zeros((len(postive_tokenids)))).to(device), requires_grad=False)
-    self.wneutral = nn.Parameter(torch.FloatTensor(torch.zeros((len(neutral_tokenids)))).to(device), requires_grad=False)
-    self.wnegative = nn.Parameter(torch.FloatTensor(torch.zeros((len(negative_tokenids)))).to(device), requires_grad=False)
+    self.wpostive = nn.Parameter(torch.FloatTensor(torch.zeros((len(postive_tokenids)))).to(device), requires_grad=True)
+    self.wneutral = nn.Parameter(torch.FloatTensor(torch.zeros((len(neutral_tokenids)))).to(device), requires_grad=True)
+    self.wnegative = nn.Parameter(torch.FloatTensor(torch.zeros((len(negative_tokenids)))).to(device), requires_grad=True)
 
     self.postive_tokenids = postive_tokenids
     self.neutral_tokenids = neutral_tokenids

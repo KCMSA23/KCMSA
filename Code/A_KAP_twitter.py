@@ -19,7 +19,7 @@ parser = argparse.ArgumentParser(description="models setting")
 parser.add_argument('--learning_rate', dest='learning_rate', type=float, help='learning_rate', default=5e-5)
 parser.add_argument('--epoch', dest='epoch', type=int, help='epoch', default=5)
 parser.add_argument('--iter', dest='iter', type=int, help='iter', default=0)
-parser.add_argument('--template_id', dest='template_id', type=int, help='template_id', default=1)
+parser.add_argument('--template_id', dest='template_id', type=int, help='template_id', default=4)
 args = parser.parse_args()
 
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')

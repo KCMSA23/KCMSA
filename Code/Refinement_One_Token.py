@@ -28,7 +28,7 @@ with open("KCMSA_dataset/Positive_word_list.txt", "r") as f:
             continue
         positive_words.append(line)
     
-with open("weibodataset/Neutral_word_list.txt", "r") as f:
+with open("KCMSA_dataset/Neutral_word_list.txt", "r") as f:
     lines = f.readlines()
     for line in lines:
         line = line.strip("\n")
@@ -47,7 +47,7 @@ with open("weibodataset/Neutral_word_list.txt", "r") as f:
         
         neutral_words.append(line)
         
-with open("weibodataset/Negative_word_list.txt", "r") as f:
+with open("KCMSA_dataset/Negative_word_list.txt", "r") as f:
     lines = f.readlines()
     for line in lines:
         line = line.strip("\n")

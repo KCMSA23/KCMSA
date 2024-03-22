@@ -9,10 +9,12 @@
 
 * Code: Source code of our KAP implementation and baselines
 * Data: Source files of our Korean-Chinese Microblog Sentiment Analysis (**KCMSA**) dataset and other dataset used in experiments
-* Full version.pdf: 
-    - Supplementary of Dataset Construction; 
-    - Supplementary of Prompt Learning Framework; 
-    - Supplementary of Experiments
+* Full version.pdf:
+    - ~~Supplementary of Dataset Construction;~~
+    - ~~Supplementary of Prompt Learning Framework;~~
+    - ~~Supplementary of Experiments~~
+    - The Appendices were temporarily removed because we submitted the extended version of the paper to a journal. If you need access to the full paper, you can [Contact Us](https://github.com/KCMSA23/KCMSA#-contact-us)
+
 
 ## Demo Script Running
 1. Running ourKAP framework over our KCMSA dataset
@@ -68,5 +70,5 @@ or
 ## Dataset Source
 * KTEA: https://goo.gl/Gu0GNw
 
-### Contact Us
+### ❖ Contact Us
 yangxinyu@dbis.nankai.edu.cn
